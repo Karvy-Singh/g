@@ -1,5 +1,13 @@
 # TASK-2: Technical Details
 
+**Code File:** [g-sim.ipynb](https://github.com/Karvy-Singh/g/blob/main/task2/g-sim.ipynb)
+
+### Metrics
+| Stage | HitRate@5 | Precision@5 | mAP@5 |
+| :--- | :--- | :--- | :--- |
+| **Base Retrieval** | 0.9740 | 0.7508 | 0.6867 |
+| **Reranked Retrieval** | **0.9760** | **0.7968** | **0.7477** |
+
 ## MODEL
 * Used **DINOv2 ViT-B/14** as the feature extractor because it produces strong semantic embeddings without requiring task-specific labels. 
 * It captures high-level structure, composition, texture, and subject information better than standard supervised classifier features, making it suitable for visual similarity retrieval in paintings.
